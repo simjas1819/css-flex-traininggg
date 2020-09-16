@@ -1,0 +1,98 @@
+h1 {
+    font-family: 'Ranchers', cursive;
+}
+
+div.a {
+    text-align: center;
+}
+
+.flex-container {
+    margin: 10px;
+    display: flex;
+    background-color: #D21DDA;
+}
+
+.mazas {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.wrap-container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+}
+
+.didelis {
+    background-color: #f1f1f2;
+    margin: 15px;
+    padding: 30px;
+    font-size: 30px;
+}
+ /* mygtukas*/
+
+.viduryje {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #D21DDA;
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.links-list a {
+    background-color: rgb(150, 70, 220);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 10px;
+}
+
+.links-list a:hover {
+    background-color: rgb(60, 20, 40);
+    color: #00E4FF;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+div.b {
+    text-align: center;
+}
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9D2638;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .btn:hover {
+    background-color: #39CB22;
+    color: white;
+}
+
+
+
+
+
